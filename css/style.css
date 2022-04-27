@@ -306,6 +306,11 @@ img {
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
 }
+@media (max-width: 425px) {
+   .content-slyd-text p{
+  font-size: 35px;
+  }
+}
 
 .content-slyd-text p span {
   font-size: 35px;
@@ -866,6 +871,7 @@ img {
   background-color: #f9f9f9;
   margin: 0 2.5px 80px 2.5px;
   border-radius: 10px;
+    overflow: hidden;
 }
 
 @media (max-width: 908px) {
@@ -883,8 +889,9 @@ img {
   max-width: 100%;
   width: 74px;
   height: 74px;
-  background: url(/"img/new.svg");
+  background: url("../img/new.svg");
   position: absolute;
+
 }
 
 .city__img::after {
